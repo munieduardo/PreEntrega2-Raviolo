@@ -1,0 +1,208 @@
+/* 1rem = 10px */  
+/*Fuentes:
+font-family: 'Bangers', cursive;
+font-family: 'Lemon', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Roboto', sans-serif; */
+html { 
+    font-size: 62.5%;}    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* INDEX */
+
+ul{
+    list-style-type: none;
+}
+
+.portada{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15rem;
+}
+
+#nav-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: rgb(252, 32, 179);
+    padding: 1rem 0rem;
+    position: sticky;
+    top: 0;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+.lista-flex{
+    font-family: 'Paytone One', sans-serif;
+    display: flex;
+    font-size: 2.2rem;
+    gap: 2rem;
+}
+
+.img-nav {
+    width: 30rem;
+    height: 7.5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    width: 10rem;
+}
+
+body {
+    background: #FFF2E7;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.info{
+    display: flex;
+    align-items: initial;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+}
+
+.info_parrafo{
+    width: 60rem;
+    height: 40rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info_foto1{
+    width: 35rem;
+    margin-left: 2rem;
+}
+.info_foto2{
+    width: 35rem;
+    margin-right: 2rem;
+}
+
+.seguinos { 
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 6rem;
+    padding-left: 10rem;
+}
+
+.banner-face {
+    margin: 6rem;
+}
+
+.marca {
+    width: 50rem;
+    padding-top: 4rem;
+}
+
+
+/*PAGINA CONTACTO*/
+.sect-contact{
+    justify-content: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+
+/*PAGINA CATALOGO*/
+
+.flex_marcas{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+.marcas{
+    padding: 3rem 10rem 1rem 10rem;
+    margin-bottom: 5rem;
+    border: 20rem;
+    cursor: pointer;
+}
+
+.marcas img{
+    width: 20rem;
+}
+
+/*PAGINA PRODUCTOS*/
+.titulo-productos{
+    padding-bottom: 5rem;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 38rem;
+    height: 55rem;
+    margin-bottom: 10rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 5%;
+    border-right: solid 0.5rem rgb(159, 159, 159);
+    border-bottom: solid 0.5rem rgb(159, 159, 159);
+}
+.card_parrafo{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    width: 30rem;
+    height: 25rem;
+}
+
+.card_parrafo--titulo{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    font-family: 'Roboto', sans-serif;   
+}
+
+.card_imagen{
+    width: 30rem;
+}
+
+.logo-apto{
+    position: absolute;
+    width: 10rem;
+    top: 20rem;
+    left: 30rem;
+}
+.card_parrafo--precio{
+    font-size: 2rem;
+    display: block;
+}
+
+.card_buttom{
+    display: block;
+}
+
+#card_abajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,201 @@
+/* 1rem = 10px */  
+/*Fuentes:
+font-family: 'Bangers', cursive;
+font-family: 'Lemon', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Roboto', sans-serif; */
+html { 
+    font-size: 62.5%;}    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+/* INDEX */
+
+header{
+    background: rgb(252, 32, 179);
+    padding: 1rem 0rem;
+    position: sticky;
+    top: 0;
+    font-size: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#nav-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.lista-flex{
+    font-family: 'Paytone One', sans-serif;
+    display: flex;
+    font-size: 2.2rem;
+    gap: 2rem;
+}
+.img-nav {
+    width: 30rem;
+    height: 7.5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    width: 10rem;
+}
+
+body {
+    background: #FFF2E7;
+}
+
+.portada{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15rem;
+}
+
+.info {
+    padding: 0rem 0rem 20rem 0rem;
+    width: auto;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+}
+
+.p-primero {
+    width: 45rem;
+    height: 15rem;
+    font-size: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.foto1 {
+    width: 30rem;
+    height: 40rem;
+}
+.foto2 {
+    width: 30rem;
+    height: 40rem;
+}
+
+.chica-curly {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.hola {
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.seguinos { 
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 6rem;
+    padding-left: 10rem;
+}
+
+.banner-face {
+    margin: 6rem;
+}
+
+.marca {
+    width: 50rem;
+    padding-top: 4rem;
+}
+
+
+/*PAGINA CONTACTO*/
+.sect-contact{
+    justify-content: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+
+/*PAGINA CATALOGO*/
+
+#flex-marcas{
+    display: flex;
+    width: 1rem;
+    align-items: center;
+}
+.marcas{
+    align-items: center;
+}
+
+.marcas img{
+    width: 20rem;
+}
+
+/*PAGINA PRODUCTOS*/
+.productos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productos .contenedor{
+    background-color: white;
+    width: 38rem;
+    height: 55rem;
+    margin-left: 5rem;
+
+}
+
+.titulo-productos{
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+}
+
+
+.imagen-productos{
+    width: 30rem;
+    padding: 1.5rem 0rem 0rem 3rem;
+}
+
+.logo-apto{
+    width: 7rem;
+    position: absolute;
+}
+
+.descripcion{
+    width: 30rem;
+    height: 15rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+.agregar{
+    margin-left: 15rem;
+}
