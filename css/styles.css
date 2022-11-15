@@ -11,16 +11,16 @@ html {
     padding: 0;
 }
 
-/* INDEX */
+                /* INDEX */
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 85rem 10rem 60rem 70rem 25rem;
+    grid-template-rows: 85rem 10rem 60rem 30rem;
     grid-template-areas:
     "cabecera cabecera cabecera"
     "nav nav nav"
     "info info info"
-    "info2 info2 info2"
     "footer footer footer";
     grid-gap: 10rem;
 }
@@ -60,15 +60,15 @@ ul{
     gap: 2rem;
 }
 
-.img-nav {
-    width: 30rem;
-    height: 7.5rem;
-}
-
-a{
+.lista-flex li a{
     color: white;
     text-decoration: none;
     width: 10rem;
+}
+
+.img-nav {
+    width: 30rem;
+    height: 7.5rem;
 }
 
 body {
@@ -79,6 +79,7 @@ body {
     font-size: 5rem;
     font-family: 'Paytone One', sans-serif;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .info{
@@ -119,31 +120,84 @@ body {
     padding-top: 4rem;
 }
 
+                /*FOOTER*/
+
 footer{
     grid-area: footer;
     background-color: rgb(252, 32, 179);
 }
-.Footer{
+.Footer-container{
     display: flex;
-    justify-content: space-between;
-    height: 20rem;
+    justify-content: space-around;
+    height: 25rem;
 }
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-info li{
+    margin-top: 1rem;
+}
+
+.logo-footer{
+    width: 35rem;
+}
+
+.lista-footer{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.footer-redes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 25rem;
+    margin-top: 1rem;
+}
+
+.logo-redes img{
+    width: 4rem;
+}
+
 .footer-legal{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
+    gap: 2rem;
     font-size: medium;
     width: 20rem;
 }
 .footer-legal a{
     width: 20rem;
+    text-decoration: none;
+    font-size: 2.0rem;
+    color: white;
 }
 .footer-legal h2{
     margin-top: 3rem;
+    font-size: 3.5rem;
+    color: white;
 }
 
+.parrafo-footer{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
 
-/*PAGINA CONTACTO*/
+                /*PAGINA CONTACTO*/
+
 .sect-contact{
     justify-content: center;
     font-size: 2rem;
@@ -153,7 +207,7 @@ footer{
 }
 
 
-/*PAGINA CATALOGO*/
+                /*PAGINA CATALOGO*/
 
 .flex_marcas{
     display: flex;
@@ -174,7 +228,8 @@ footer{
     width: 20rem;
 }
 
-/*PAGINA PRODUCTOS*/
+                /*PAGINA PRODUCTOS*/
+
 .titulo-productos{
     padding-bottom: 5rem;
 }
