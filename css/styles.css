@@ -111,7 +111,7 @@ footer{
     grid-area: footer;
     background-color: rgb(252, 32, 179);
 }
-.Footer-container{
+.footer-container{
     display: flex;
     justify-content: space-around;
     height: 25rem;
@@ -355,7 +355,7 @@ footer{
     z-index: 0;
 }
 
-.Footer-container{
+.footer-container{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
