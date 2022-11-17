@@ -197,20 +197,21 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 2rem;
-    font-size: medium;
     width: 20rem;
 }
 .footer-legal a{
-    width: 20rem;
+    width: 22rem;
     text-decoration: none;
-    font-size: 2.0rem;
+    font-size: 2rem;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .footer-legal h2{
     margin-top: 3rem;
     font-size: 3.5rem;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .parrafo-footer{
@@ -428,7 +429,7 @@ footer{
 }
 
 .footer-legal a{
-    text-align-last: center;
+    text-align: center;
 }
 
 .info{
