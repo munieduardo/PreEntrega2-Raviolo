@@ -9,6 +9,7 @@ html {
 *{
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
                 /* INDEX */
@@ -322,7 +323,6 @@ footer{
 .info{
     flex-direction: column;
     justify-content: center;
-    height: 140rem;
 }
 
 }
@@ -331,7 +331,7 @@ footer{
 
 .grid-container{
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 45rem 0rem 200rem 75rem;
+    grid-template-rows: 45rem 0rem 250rem 75rem;
     grid-template-areas:
     "nav"
     "h1"
@@ -369,5 +369,13 @@ footer{
 
 .footer-info{
     margin-top: 2rem;
+}
+
+.info{
+    height: 170rem;
+}
+
+.info_parrafo{
+    text-align-last: center;
 }
 }
