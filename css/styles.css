@@ -16,17 +16,13 @@ html {
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 85rem 10rem 60rem 30rem;
+    grid-template-rows: 10rem 0rem 200rem 30rem;
     grid-template-areas:
-    "cabecera cabecera cabecera"
     "nav nav nav"
+    "h1 h1 h1"
     "section section section"
     "footer footer footer";
-    grid-gap: 10rem;
-}
-
-.cabecera{
-    grid-area: cabecera;
+    grid-gap: 5rem;
 }
 
 ul{
@@ -80,6 +76,7 @@ body {
     font-family: 'Paytone One', sans-serif;
     text-align: center;
     margin-bottom: 3rem;
+    grid-area: h1;
 }
 
 section{
@@ -91,6 +88,7 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 50rem;
 }
 
 .info_parrafo{
@@ -100,13 +98,12 @@ section{
     text-align: justify;
     text-align-last: center ;
     font-family: 'Roboto', sans-serif;
-    line-height: 4rem;
+    line-height: 4.5rem;
 }
 
-.info_foto2{
-    width: 40rem;
+.foto1{
+    max-height: 100%;
 }
-
 
                 /*FOOTER*/
 
@@ -285,3 +282,92 @@ footer{
     margin-bottom: 2rem;
 }
 
+                /*MEDIA QUERIES*/
+@media screen and (max-width: 1300px) {
+
+.info_parrafo{
+    max-width: 60%;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin: 0rem 1.5rem;
+}
+}
+
+@media screen and (max-width: 1070px) {
+.grid-container{
+    grid-template-rows: 20rem 0rem 200rem 30rem;
+}
+
+#nav-flex{
+    flex-direction: column;
+    height: 20rem;
+}
+
+.img-nav{
+    width: 50rem;
+    height: 10rem;
+}
+
+.lista-flex{
+    gap: 4rem;
+}
+
+.info_parrafo {
+    max-width: 71%;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin: 0rem 1.5rem;
+}
+
+.info{
+    flex-direction: column;
+    justify-content: center;
+    height: 140rem;
+}
+
+}
+
+@media screen and (max-width: 800px){
+
+.grid-container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 45rem 0rem 200rem 75rem;
+    grid-template-areas:
+    "nav"
+    "h1"
+    "section"
+    "footer";
+}
+
+.cabecera{
+    display: none;
+}
+
+.lista-flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-flex{
+    padding: 15rem 0rem;
+    position: relative;
+    z-index: 0;
+}
+
+.Footer-container{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-info{
+    margin-top: 2rem;
+}
+}
