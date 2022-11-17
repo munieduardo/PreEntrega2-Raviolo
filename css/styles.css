@@ -129,6 +129,22 @@ section{
     max-height: 100%;
 }
 
+.button-asesoramiento{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(252, 32, 179);
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.button-asesoramiento:hover{
+    background-color: rgb(255, 146, 219);
+    cursor: pointer;
+}
+
                 /*FOOTER*/
 
 footer{
@@ -430,6 +446,11 @@ footer{
 .info_parrafo{
     text-align-last: center;
     max-width: 90%;
+}
+.button-asesoramiento{
+    padding: 2rem 3rem;
+    width: none;
+    margin-bottom: 1rem;
 }
 }
 }
