@@ -85,7 +85,7 @@ section{
 }
 
 .info{
-    background-color: rgb(255, 206, 206);
+    background-color: rgb(249, 249, 249);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,7 +94,7 @@ section{
 }
 
 .info2{
-    background-color: #ffe7e7;
+    background-color: rgb(249, 249, 249);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
