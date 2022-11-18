@@ -17,10 +17,8 @@ html {
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 10rem 0rem 200rem 30rem;
+    grid-template-rows: 200rem 30rem;
     grid-template-areas:
-    "nav nav nav"
-    "h1 h1 h1"
     "section section section"
     "footer footer footer";
     grid-gap: 5rem;
@@ -36,40 +34,38 @@ ul{
     padding-bottom: 15rem;
 }
 
-#nav-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    background: rgb(252, 32, 179);
-    padding: 1rem 0rem;
-    position: sticky;
-    top: 0;
-    font-size: 1.5rem;
-    z-index: 1;
-    grid-area: nav;
+.color-nav{
+background: rgb(252, 32, 179);
 }
 
-.lista-flex{
+#navbarNav{
+    font-size: 2.5rem;
+    justify-content: space-evenly;
     font-family: 'Paytone One', sans-serif;
-    display: flex;
-    font-size: 2.2rem;
-    gap: 2rem;
 }
 
-.lista-flex li a{
-    color: white;
-    text-decoration: none;
-    width: 10rem;
+.navbar-nav {
+    align-items: center;
 }
 
-.img-nav {
-    width: 30rem;
-    height: 7.5rem;
+.nav-item a{
+    color:white
+}
+
+.navbar-expand-lg .navbar-nav{
+    gap: 1rem;
+}
+
+.navbar-toggler {
+    background-color: white;
 }
 
 body {
     background: #FFF2E7;
+}
+
+#section{
+    margin-top: 20rem;
 }
 
 .titulo {
@@ -267,10 +263,10 @@ footer{
     flex-wrap: wrap;
 }
 
-.card{
+.contenido{
     background-color: white;
     width: 38rem;
-    height: 55rem;
+    height: 60rem;
     margin-bottom: 10rem;
     margin-right: 2rem;
     display: flex;
@@ -336,12 +332,17 @@ footer{
 
 @media screen and (max-width: 1024px) {
 .grid-container{
-    grid-template-rows: 20rem 0rem 260rem 30rem;
+    grid-template-rows: 260rem 30rem;
 }
 
-#nav-flex{
-    flex-direction: column;
-    height: 20rem;
+.container-fluid{
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center !important;
+}
+
+.color-nav{
+    flex-wrap: wrap;
 }
 
 .img-nav{
@@ -379,10 +380,8 @@ footer{
 
 .grid-container{
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 45rem 0rem 450rem 100rem;
+    grid-template-rows: 450rem 100rem;
     grid-template-areas:
-    "nav"
-    "h1"
     "section"
     "footer";
 }
