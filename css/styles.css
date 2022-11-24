@@ -34,6 +34,13 @@ ul{
     padding-bottom: 15rem;
 }
 
+.nav-position{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1 !important;
+}
+
+
 .color-nav{
 background: rgb(252, 32, 179);
 }
@@ -58,6 +65,11 @@ background: rgb(252, 32, 179);
 
 .navbar-toggler {
     background-color: white;
+}
+
+.navbar{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 31 30'%3e%3cpath stroke='rgba%28, 252, 32, 179.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
 }
 
 body {
