@@ -1,0 +1,81 @@
+.titulo-productos{
+    padding-bottom: 5rem;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    .contenido{
+        background-color: white;
+        width: 38rem;
+        height: 60rem;
+        margin-bottom: 10rem;
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        border-radius: 5%;
+        border-right: solid 0.5rem rgb(159, 159, 159);
+        border-bottom: solid 0.5rem rgb(159, 159, 159);
+        
+    }
+
+    .card_parrafo{
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        width: 30rem;
+        height: 25rem;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        font-family: 'Roboto', sans-serif;   
+    }
+
+    .card_imagen{
+        width: 30rem;
+    }
+
+    .logo-apto{
+        position: absolute;
+        width: 10rem;
+        top: 20rem;
+        left: 30rem;
+    }
+
+    .card_parrafo--precio{
+        font-size: 2rem;
+        display: block;
+    }
+
+    .card_buttom{
+        display: block;
+    }
+
+    #card_abajo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+@media screen and (max-width: 1300px) {
+
+    .info_parrafo{
+        max-width: 60%;
+        font-size: 2rem;
+        line-height: 4rem;
+        margin: 0rem 1.5rem;
+    }
+    }
+    
+    @media screen and (max-width: 1024px) {
+    .grid-container{
+        grid-template-rows: 260rem 30rem;
+    }
+    
+    .container-fluid{
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: center !important;
+    }
+    
+    .color-nav{
+        flex-wrap: wrap;
+    }
+    
+    .img-nav{
+        width: 50rem;
+        height: 10rem;
+    }
+    
+    .lista-flex{
+        gap: 4rem;
+    }
+    
+    .info_parrafo {
+        max-width: 71%;
+        font-size: 2rem;
+        line-height: 4rem;
+        margin: 0rem 1.5rem;
+    }
+    
+    .info{
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .info2{
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    
+    .titulo2{
+        font-size: 3rem;
+    
+    }
+    
+    @media screen and (max-width: 800px){
+    
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 450rem 100rem;
+        grid-template-areas:
+        "section"
+        "footer";
+    }
+    
+    .titulo2{
+        font-size: 3rem;
+    }
+    
+    .cabecera{
+        display: none;
+    }
+    
+    .lista-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nav-flex{
+        padding: 15rem 0rem;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .footer-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .footer-info{
+        margin-top: 2rem;
+    }
+    
+    .footer-legal{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-legal a{
+        text-align: center;
+    }
+    
+    .info{
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+    
+    .info2{
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+    
+    .info_parrafo{
+        text-align-last: center;
+        max-width: 90%;
+    }
+    .button-asesoramiento{
+        padding: 2rem 3rem;
+        width: none;
+        margin-bottom: 1rem;
+    }
+    }
+    }
