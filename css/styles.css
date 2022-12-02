@@ -38,11 +38,63 @@ h1 {
   grid-gap: 5rem;
 }
 
+header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+header .color-nav {
+  background: rgb(252, 32, 179);
+}
+header .nav-item a {
+  color: white;
+}
+header .navbar-expand-lg .navbar-nav {
+  gap: 1rem;
+}
+header .navbar-toggler {
+  background-color: white;
+}
+header .navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 31 30'%3e%3cpath stroke='rgba%28, 252, 32, 179.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#navbarNav {
+  font-size: 2.5rem;
+  justify-content: space-evenly;
+  font-family: "Paytone One", sans-serif;
+}
+#navbarNav .navbar-nav {
+  align-items: center;
+}
+
 section {
   grid-area: section;
-  margin-top: 20rem;
 }
-section .info_parrafo {
+section .foto {
+  max-height: 100%;
+}
+
+.info {
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50rem;
+  margin-bottom: 10rem;
+}
+
+.info2 {
+  background-color: rgb(249, 249, 249);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  height: 50rem;
+  margin-bottom: 10rem;
+}
+
+.info_parrafo {
   max-width: 65%;
   max-height: 100%;
   font-size: 2.5rem;
@@ -51,32 +103,20 @@ section .info_parrafo {
   font-family: "Roboto", sans-serif;
   line-height: 4.5rem;
 }
-section .titulo {
-  font-size: 12rem;
-  font-family: "Paytone One", sans-serif;
-  text-align: center;
-  margin-bottom: 3rem;
-  color: rgb(252, 32, 179);
-}
-section .foto {
-  max-height: 100%;
-}
-section .info {
-  background-color: rgb(249, 249, 249);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50rem;
-  margin-bottom: 10rem;
-}
-section .info .titulo2 {
+
+.titulo2 {
   font-weight: bolder;
   font-size: 4rem;
   margin-bottom: 2rem;
   max-width: 100%;
   text-align: center;
 }
-section .info .button-asesoramiento {
+
+.info_parrafo h2 {
+  font-weight: 2rem;
+}
+
+.button-asesoramiento {
   width: 100%;
   padding: 2rem;
   margin-top: 2rem;
@@ -86,19 +126,9 @@ section .info .button-asesoramiento {
   font-weight: bolder;
   border-style: none;
 }
-section .info .button-asesoramiento:hover {
+.button-asesoramiento:hover {
   background-color: rgb(255, 146, 219);
   cursor: pointer;
-}
-section .info2 {
-  background-color: rgb(249, 249, 249);
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  align-items: center;
-  height: 50rem;
-  margin-bottom: 10rem;
-  margin-top: 10rem;
 }
 
 footer {
@@ -265,7 +295,7 @@ footer p {
 }
 @media screen and (max-width: 1024px) {
   .grid-container {
-    grid-template-rows: 260rem 30rem;
+    grid-template-rows: 260rem 30rem !important;
   }
   .container-fluid {
     flex-wrap: inherit;
@@ -300,11 +330,14 @@ footer p {
     font-size: 3rem;
   }
 }
-@media screen and (max-width: 1024px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 450rem 100rem;
+    grid-template-rows: 450rem 100rem !important;
     grid-template-areas: "section" "footer";
+  }
+  h1 {
+    font-size: 5rem;
   }
   .titulo2 {
     font-size: 3rem;
@@ -361,35 +394,6 @@ footer p {
     width: none;
     margin-bottom: 1rem;
   }
-}
-header {
-  position: sticky !important;
-  top: 0 !important;
-  z-index: 1 !important;
-}
-header .color-nav {
-  background: rgb(252, 32, 179);
-}
-header .nav-item a {
-  color: white;
-}
-header .navbar-expand-lg .navbar-nav {
-  gap: 1rem;
-}
-header .navbar-toggler {
-  background-color: white;
-}
-header .navbar {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 31 30'%3e%3cpath stroke='rgba%28, 252, 32, 179.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-#navbarNav {
-  font-size: 2.5rem;
-  justify-content: space-evenly;
-  font-family: "Paytone One", sans-serif;
-}
-#navbarNav .navbar-nav {
-  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

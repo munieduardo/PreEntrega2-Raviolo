@@ -1,80 +1,67 @@
 section{
     grid-area: section;
-    margin-top: 20rem;
-
-    .info_parrafo{
-        max-width: 65%;
-        max-height: 100%;
-        font-size: 2.5rem;
-        text-align: justify;
-        text-align-last: center ;
-        font-family: 'Roboto', sans-serif;
-        line-height: 4.5rem;
-    }
-    
-
-    .titulo {
-        font-size: 12rem;
-        font-family: 'Paytone One', sans-serif;
-        text-align: center;
-        margin-bottom: 3rem;
-        color: rgb(252, 32, 179);
-    }
-
     
     .foto{
         max-height: 100%;
     }
+}
 
-    .info{
-        background-color: rgb(249, 249, 249);
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 50rem;
-        margin-bottom: 10rem;
+.info{
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+    margin-bottom: 10rem;
+}
 
-        .titulo2{
-            font-weight: bolder;
-            font-size: 4rem;
-            margin-bottom: 2rem;
-            max-width: 100%;
-            text-align: center;
-        }
+.info2{
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+    margin-bottom: 10rem;
+}
 
-        .button-asesoramiento{
-            width: 100%;
-            padding: 2rem;
-            margin-top: 2rem;
-            background-color: rgb(252, 32, 179);
-            color: white;
-            font-size: 3rem;
-            font-weight: bolder;
-            border-style: none;
-        }
+.info_parrafo{
+    max-width: 65%;
+    max-height: 100%;
+    font-size: 2.5rem;
+    text-align: justify;
+    text-align-last: center ;
+    font-family: 'Roboto', sans-serif;
+    line-height: 4.5rem;
+}
 
-        .button-asesoramiento:hover{
-            background-color: rgb(255, 146, 219);
-            cursor: pointer;
-        }
-        
-    }
+.titulo2{
+    font-weight: bolder;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    text-align: center;
+}
 
-    .info2{
-        background-color: rgb(249, 249, 249);
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        align-items: center;
-        height: 50rem;
-        margin-bottom: 10rem;
-        margin-top: 10rem;
-    }
-    
+.info_parrafo h2{
+    font-weight: 2rem;
 }
 
 
 
+.button-asesoramiento{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(252, 32, 179);
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    border-style: none;
 
-
+    &:hover{
+        background-color: rgb(255, 146, 219);
+        cursor: pointer;
+    }
+}
 

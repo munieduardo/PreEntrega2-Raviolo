@@ -6,11 +6,11 @@
         line-height: 4rem;
         margin: 0rem 1.5rem;
     }
-    }
+}
     
-    @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .grid-container{
-        grid-template-rows: 260rem 30rem;
+        grid-template-rows: 260rem 30rem !important;
     }
     
     .container-fluid{
@@ -53,17 +53,21 @@
         font-size: 3rem;
     
     }
-    
-    @media screen and (max-width: 800px){
-    
+}
+
+@media screen and (max-width: 800px){
     .grid-container{
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 450rem 100rem;
+        grid-template-rows: 450rem 100rem !important;
         grid-template-areas:
         "section"
         "footer";
     }
     
+    h1{
+        font-size: 5rem;
+    }
+
     .titulo2{
         font-size: 3rem;
     }
@@ -130,5 +134,4 @@
         width: none;
         margin-bottom: 1rem;
     }
-    }
-    }
+}
