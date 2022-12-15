@@ -26,7 +26,7 @@ h1 {
   font-size: 12rem;
   font-family: "Paytone One", sans-serif;
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 4rem 0rem;
   color: rgb(252, 32, 179);
 }
 
@@ -154,6 +154,10 @@ footer .footer-container .footer-info li {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
+footer .footer-container .footer-info li a {
+  text-decoration: none;
+  color: white;
+}
 footer .footer-container .footer-info .logo-footer {
   width: 35rem;
 }
@@ -181,7 +185,7 @@ footer .footer-container .footer-legal a {
   color: white;
   font-family: "Roboto", sans-serif;
 }
-footer .footer-container .footer-legal h2 {
+footer .footer-container .footer-legal h3 {
   margin-top: 3rem;
   font-size: 3.5rem;
   color: white;
@@ -394,6 +398,15 @@ footer p {
     width: none;
     margin-bottom: 1rem;
   }
+}
+.parrafo_tips {
+  font-size: 3rem;
+  text-align: center;
+  padding: 3rem;
+  color: hotpink;
+  font-family: "Roboto";
+  font-weight: bolder;
+  margin: 5rem 0rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -20,6 +20,11 @@ footer{
                 color: white;
                 font-family: 'Roboto', sans-serif;
                 font-weight: bold;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
             }
             
             .logo-footer{
@@ -54,7 +59,7 @@ footer{
                 font-family: 'Roboto', sans-serif;
             }
 
-            h2{
+            h3{
                 margin-top: 3rem;
                 font-size: 3.5rem;
                 color: white;
