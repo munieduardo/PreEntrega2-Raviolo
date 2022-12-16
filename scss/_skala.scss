@@ -11,7 +11,7 @@
     .contenido{
         background-color: white;
         width: 38rem;
-        height: 65rem;
+        height: 55rem;
         margin-bottom: 10rem;
         margin-right: 2rem;
         display: flex;
@@ -22,6 +22,21 @@
         border-right: solid 0.5rem rgb(159, 159, 159);
         border-bottom: solid 0.5rem rgb(159, 159, 159);
         
+    }
+
+    .card-skala{
+        background-color: white;
+        width: 38rem;
+        height: 65rem;
+        margin-bottom: 10rem;
+        margin-right: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        border-radius: 5%;
+        border-right: solid 0.5rem rgb(159, 159, 159);
+        border-bottom: solid 0.5rem rgb(159, 159, 159);
     }
 
     .card_parrafo{
@@ -42,7 +57,7 @@
     }
 
     .card_imagen{
-        width: 30rem;
+        height: 30rem;
     }
 
     .logo-apto{
