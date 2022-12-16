@@ -11,7 +11,7 @@
     .contenido{
         background-color: white;
         width: 38rem;
-        height: 60rem;
+        height: 65rem;
         margin-bottom: 10rem;
         margin-right: 2rem;
         display: flex;
@@ -26,8 +26,9 @@
 
     .card_parrafo{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-family: 'Roboto', sans-serif;
+        font-weight: bold;
         width: 30rem;
         height: 25rem;
     }
@@ -36,7 +37,8 @@
         text-align: center;
         font-size: 2rem;
         padding-top: 1.5rem;
-        font-family: 'Roboto', sans-serif;   
+        font-family: 'Paytone One';
+        color: rgb(252, 32, 179);  
     }
 
     .card_imagen{
@@ -51,8 +53,10 @@
     }
 
     .card_parrafo--precio{
-        font-size: 2rem;
+        font-size: 2.5rem;
         display: block;
+        font-family: fantasy;
+        color: rgb(21, 203, 60);
     }
 
     .card_buttom{
@@ -62,9 +66,17 @@
     #card_abajo{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: normal;
         width: 20rem;
         margin-bottom: 2rem;
+    }
+
+    .btn{
+        height: 4rem;
+        width: 7rem;
+        font-size: 1.5rem;
+        background-color: rgb(252, 32, 179);
+        color: white;
     }
 }
 

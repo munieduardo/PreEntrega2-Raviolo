@@ -7,12 +7,14 @@
     margin-top: 5rem;
 }
 .marcas{
-    padding: 3rem 10rem 1rem 10rem;
-    margin-bottom: 5rem;
+    padding: 10rem;
     border: 20rem;
-    cursor: pointer;
+    img{
+        width: 20rem;
+    }
+    img:hover{
+        transform: scale(1.8);
+    }
 }
 
-.marcas img{
-    width: 20rem;
-}
+
