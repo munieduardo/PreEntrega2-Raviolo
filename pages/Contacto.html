@@ -48,35 +48,21 @@
         <h1>
             Contacto
         </h1>
-        <p>
-            Completa el formulario con tus datos y te contactaremos a la brevedad
-        </p>
-        <form class="formulario">
-            <fieldset class="recuadro">
-                <legend>Dejanos tus datos</legend>
-            <div>
-                <label for="nombre">Nombre y Apellido</label>
-                <input type="text" id="nombre" required>
-            </div>
-            
-            <div>
-                <label for="email">Correo</label>
-                <input type="email" id="email" required>
-            </div>
 
-            <div>
-                <label for="">Telefono</label>
-                <input type="text" id="number" required>
-            </div>
+        <div class="contenedor-form">
+            <form action="" class="form">
+                <div class="form-header">
+                    <h2 class="form-title">Completa el formulario con tus datos y te contactaremos a la brevedad</h2>
+                </div>
 
-            <div>
-                <label for="mensaje">Dejanos tu Mensaje</label>
-                <textarea id="mensaje" cols="40" rows="10" maxlength="5000"></textarea>
-            </div>
+                <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre" required="active">
+                <input type="text" id="direccion" class="form-input" placeholder="Escriba su dirección" required="active">
+                <input type="email" id="Correo" class="form-input" placeholder="Escriba su correo" required="active">
+                <textarea id="mensaje" class="form-textarea" placeholder="Escriba su mensaje" required="active"></textarea>
+                <input type="submit" id="boton" value="Enviar Consulta">
 
-                <input type="submit" name="Enviar">
-            </fieldset>
-        </form>
+            </form>
+        </div>
     </section>
 
         <!--PIE DE PAGINA-->

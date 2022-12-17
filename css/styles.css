@@ -204,12 +204,55 @@ footer p {
   margin-bottom: 0rem;
 }
 
-.sect-contact {
-  justify-content: center;
+.contenedor-form .form {
+  width: 70rem;
+  height: 60rem;
+  margin: auto;
+  background: rgba(199, 29, 193, 0.4);
+  padding: 4rem 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
   font-size: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border-style: none;
+}
+.contenedor-form .form h2 {
+  color: rgb(255, 0, 170);
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+.contenedor-form .form .form-input {
+  max-width: 100%;
+  width: 100rem;
+  height: 4rem;
+  margin-top: 2rem;
+  border-style: none;
+}
+.contenedor-form .form .form-textarea {
+  width: 100%;
+  margin: 20px 0px;
+  padding: 7px;
+  box-sizing: border-box;
+  min-height: 150px;
+  max-height: 240px;
+  max-width: 100%;
+  font-size: 2rem;
+  border-style: none;
+}
+.contenedor-form .form #boton {
+  background-color: rgb(255, 0, 170);
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-style: none;
+}
+.contenedor-form .form #boton:hover {
+  cursor: pointer;
+  background-color: rgb(248, 54, 183);
+}
+
+.sect-contact {
+  height: 80rem;
 }
 
 .titulo-productos {
